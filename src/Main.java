@@ -6,10 +6,12 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("hola estoy haciendo un inventario");
-
       Scanner scanner = new Scanner(System.in);
-      ArrayList<String>productos = new ArrayList<>();
-      ArrayList<Integer>cantidades = new ArrayList<>();
+
+        String[] productos = new String[10];
+        int[] cantidades = new int[10];
+        int contador = 0;
+
 
 
 
