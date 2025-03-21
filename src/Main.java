@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Declaración de variables
+
         String[] productos = new String[10];
         int[] cantidades = new int[10];
         double[] precios = new double[10];
@@ -37,9 +37,8 @@ public class Main {
             preciosConIva[i] = precios[i] * (1 + iva);
         }
 
-
         while (true) {
-            // Menú principal
+
             System.out.println("Inventario de la tienda");
             System.out.println("1. Agregar producto");
             System.out.println("2. Eliminar producto");
@@ -108,3 +107,5 @@ public class Main {
         }
     }
 }
+
+//codigo echo por Diego Rubén
