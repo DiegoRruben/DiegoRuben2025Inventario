@@ -15,6 +15,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         double iva = 0.16;
 
+        System.out.println("Tienda De Frutas");
+
+
         productos[0] = "Manzana";
         productos[1] = "Plátano";
         productos[2] = "Naranja";
@@ -54,7 +57,7 @@ public class Main {
 
                     if (indice < 10) {
                         System.out.println("Ingrese el nombre del producto:");
-                        scanner.nextLine(); // Consumir el salto de línea
+                        scanner.nextLine();
                         productos[indice] = scanner.nextLine();
                         System.out.println("Ingrese la cantidad del producto:");
                         cantidades[indice] = scanner.nextInt();
